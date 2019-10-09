@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>TO DO LIST</h1>
+    <form id="sign">
+        <input id="alias" placeholder="username">
+        <input id="pass" type="password" placeholder="password">
+        <input id="in" type="submit" value="sign in">
+        <input id="up" type="button" value="sign up">
+    </form>
+    <label id="enter">Enter Date </label>
+    <input type="date" id="dates" disabled='true'></input>
+    <ul></ul>
+
+    <form id="add">
+        <label>number of tasks : <span id="numOfTasks">0</span></label>
+        <label>number of done tasks : <span id="numOfDoneTasks">0</span></label>
+        <input type="text" id="todo" disabled="true">
+        <input type="submit" value="Add" disabled="true">
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/gun/examples/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gun/sea.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gun/lib/webrtc.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
